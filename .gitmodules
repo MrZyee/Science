@@ -1,0 +1,3 @@
+[submodule "TextGame"]
+	path = TextGame
+	url = https://github.com/MrZyee/TextGame.git
