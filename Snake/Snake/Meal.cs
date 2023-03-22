@@ -8,7 +8,7 @@ namespace Snake
 {
     public class Meal
     {
-        public Meal()
+        public Meal() //randomowo pojawianie się jedzenia na planszy
         {
             Random rand = new Random();
             var x =rand.Next(1, 20);
@@ -19,7 +19,7 @@ namespace Snake
 
         public Coordinate CurrentTarget { get; set; }
 
-        void Draw()
+        void Draw() //rysowanie jedzenia dla węża
         {
             Console.SetCursorPosition(CurrentTarget.X, CurrentTarget.Y);
             Console.ForegroundColor = ConsoleColor.Green;
